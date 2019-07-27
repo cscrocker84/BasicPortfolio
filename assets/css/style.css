@@ -126,6 +126,15 @@ img {
     margin-left: 2em;
     margin-right: 2em;
   }
+
+  hr {
+    height: 2px;
+    background-color: #4aaaa5;
+    border: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   
 
@@ -206,6 +215,16 @@ img {
 
     /* Portfolio Page */
 
+    .portfolio {
+        background-color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5em;
+        width: 600px;
+        height: 700px;
+        margin-bottom: 10em;
+      }
+
     .box {
         height: 150px;
         width: 150px;
@@ -226,8 +245,43 @@ img {
 
       .box2 {
         float: left;
-        margin-left: 3.5em;
+        margin-left: 7em;
         background-image: url('../images/track.jpeg');
         background-size: 150px 150px;
         text-align: center;
       }
+
+      .box3 {
+        clear: left;
+        float: left;
+        margin-left: 3.5em;
+        background-image: url('../images/cycle.jpg');
+        background-size: 150px 150px;
+        text-align: center;
+      }
+
+      .box4 {
+        float: left;
+        margin-left: 7em;
+        background-image: url('../images/rugby.jpg');
+        background-size: 150px 150px;
+        text-align: center;
+      }
+
+      .box5 {
+        clear: left;
+        float: left;
+        margin-left: 3.5em;
+        background-image: url('../images/trak.jpg');
+        background-size: 150px 150px;
+        text-align: center;
+      }
+      .card-title {
+        z-index: 3;
+        background-color: #4aaaa5;
+        padding: 5px;
+        color: #fff;
+        font-size: 20px;
+        margin-top: 5em;
+      }
+      
